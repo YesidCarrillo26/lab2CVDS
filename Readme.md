@@ -24,4 +24,9 @@ Por medio del siguiente codigo:
 mvn archetype:generate -DgroupId=edu.eci.cvds -DartifactId=Patterns -DarchetypeArtifactId=maven-archetype-quickstart -Dpackage=edu.eci.cvds.patterns -DinteractiveMode=false 
 
 ```
+* Objetivo del comando `package`: Crea un archivo JAR o WAR para convertir el proyecto en formato distribuible
 
+Con el codigo `mvn exec:java -Dexec.mainClass="edu.eci.cvds.patterns.App" -Dexec.args="argument1"`
+ejecutamos el proyecto maven.
+
+El parametro `-Dexec.args` nos permite configurar los parametros que se envian al ejecutar el projecto maven
