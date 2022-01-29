@@ -14,12 +14,19 @@ Ingresar a la página de la herramienta y entender:
 Es capaz de construir, reportar y documentar desde una pieza de informacion central
 ## Fases de Maven:
 1.validate
+
 2.compile
-3.test 
+
+3.test
+
 4.package
+
 5.verify
+
 6.install
+
 7.develop 
+
 ## Ciclo de vida de la construccion:
 * Ciclo de vida default, que gestiona la construccion y despliegue del proyecto.
 * Ciclo de vida clean, que gestiona la limpieza del directorio del proyecto.
