@@ -32,3 +32,16 @@ El repositorio central de Maven sirve para aquellos que necesiten dependencia po
 
 
 
+
+# CREAR UN PROYECTO CON MAVEN
+
+Ejecutando el conjunto de instrucciones dado:
+![](parte1.png)
+
+Por medio del siguiente codigo:
+
+```
+mvn archetype:generate -DgroupId=edu.eci.cvds -DartifactId=Patterns -DarchetypeArtifactId=maven-archetype-quickstart -Dpackage=edu.eci.cvds.patterns -DinteractiveMode=false 
+
+```
+
