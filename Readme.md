@@ -20,10 +20,7 @@ Ejecutando el conjunto de instrucciones dado:
 
 Por medio del siguiente codigo:
 
-´´´ mvn archetype:generate 
--DgroupId=edu.eci.cvds 
--DartifactId=Patterns 
--DarchetypeArtifactId=maven-archetype-quickstart 
--Dpackage=edu.eci.cvds.patterns -DinteractiveMode=false ´´´
+´´´ 
+mvn archetype:generate -DgroupId=edu.eci.cvds -DartifactId=Patterns -DarchetypeArtifactId=maven-archetype-quickstart -Dpackage=edu.eci.cvds.patterns -DinteractiveMode=false 
+´´´
 
-Lo anterior todo dentro de la misma linea
