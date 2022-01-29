@@ -53,7 +53,30 @@ mvn archetype:generate -DgroupId=edu.eci.cvds -DartifactId=Patterns -DarchetypeA
 ```
 * Objetivo del comando `package`: Crea un archivo JAR o WAR para convertir el proyecto en formato distribuible
 
+Compilamos con el codigo `mvn package`
+
 Con el codigo `mvn exec:java -Dexec.mainClass="edu.eci.cvds.patterns.App" -Dexec.args="argument1"`
 ejecutamos el proyecto maven.
 
 El parametro `-Dexec.args` nos permite configurar los parametros que se envian al ejecutar el projecto maven
+
+# Compilar y ejecutar
+
+El codigo finalizado lo mostramos a continuacion:
+
+```
+public class App 
+{
+    public static void main( String[] args )
+    {
+		if (args.length == 0) System.out.println("No ingreso un carajo");
+		String cadena = "Hello";
+		for (int i = 0; i < args.length; i ++){
+		    cadena += " ";
+            cadena += args[i];
+        }
+		cadena += "!";
+		System.out.println(cadena);
+    }
+}
+```
