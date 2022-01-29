@@ -16,7 +16,7 @@ El repositorio central de Maven sirve para aquellos que necesiten dependencia po
 # CREAR UN PROYECTO CON MAVEN
 
 Ejecutando el conjunto de instrucciones dado:
-![](/parte1.png)
+![](parte1.png)
 
 Por medio del siguiente codigo:
 
