@@ -85,7 +85,7 @@ public class App
 
 ## ¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?
 
-![]ejecucion.png)
+![](ejecucion.png)
 
 Las unica intruccion que ejecuto y funciono correctamente fue Hexagon ya que es una de las enumeraciones 
 a pesar de que pentagon tambien esta si la entrada es en minuscula saldra un mensaje indicando que no es 
