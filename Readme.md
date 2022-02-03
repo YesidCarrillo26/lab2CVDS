@@ -77,3 +77,16 @@ public class App
     }
 }
 ```
+
+## Cree el archivo ShapeFactory.java en el directorio src/main/java/edu/eci/cvds/patterns/shapes implementando
+ el patrón fábrica, haciendo uso de la instrucción switch-case de Java y usando las enumeraciones.
+
+![](switch-case.png)
+
+## ¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?
+
+![]ejecucion.png)
+
+Las unica intruccion que ejecuto y funciono correctamente fue Hexagon ya que es una de las enumeraciones 
+a pesar de que pentagon tambien esta si la entrada es en minuscula saldra un mensaje indicando que no es 
+de tipo RegularShapeType
